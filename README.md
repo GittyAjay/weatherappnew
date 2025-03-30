@@ -1,6 +1,7 @@
+![Weather App](https://res.cloudinary.com/dhh3qr3hx/image/upload/fl_preserve_transparency/v1743328782/demo_image_guxyga.jpg?_s=public-apps)
+
 # Weather App
 
-![Weather App](https://res.cloudinary.com/dhh3qr3hx/image/upload/fl_preserve_transparency/v1743328782/demo_image_guxyga.jpg?_s=public-apps)
 A React Native weather application that fetches weather data based on user location with intelligent caching to minimize API calls.
 
 ## Features
