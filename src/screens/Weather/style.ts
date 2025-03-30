@@ -1,0 +1,90 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  weatherContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+    marginTop: 100,
+  },
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
+  topHeader: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderBottomWidth: 0.4,
+    borderBottomColor: '#E0E0E0',
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+  },
+  mainTemp: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  todayHeader: {
+    color: 'white',
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+  },
+  weatherInfo: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingVertical: 20,
+    borderWidth: 1,
+    borderColor: 'white',
+    borderRadius: 30,
+  },
+  todayDate: {
+    color: 'white',
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+  },
+  footer: {
+    paddingTop: 30,
+    paddingBottom: 30,
+    paddingHorizontal: 30,
+    backgroundColor: 'white',
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+  },
+  footerHeading: {
+    color: 'black',
+    fontSize: 16,
+    fontWeight: '100',
+    fontFamily: 'Poppins-SemiBold',
+  },
+  noData: {
+    color: 'black',
+    textAlign: 'center',
+    fontSize: 16,
+    fontWeight: '100',
+    fontFamily: 'Poppins-SemiBold',
+  },
+  footerItems: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap',
+    marginTop: 20,
+  },
+  todayHeaderText: {
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+  },
+  searchContainer: {
+    backgroundColor: 'white',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+  },
+});
